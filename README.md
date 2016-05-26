@@ -49,4 +49,8 @@ where:
 - is_imported: **true** if the item is imported, **false** if the item is not imported.
 
 ##Unit tests
-The code contains unit tests with the three input described in the text of problem. Unit tests are executed during the build, and print the receipts for the three input. They prove the correctness of the proposed solution.
+The code contains unit tests with the three input described in the text of problem. Unit tests are executed during the build, and print the receipts for the three input.
+
+##Other info
+Java version: "1.8.0_91"
+OS: "Xubuntu 15.10"
