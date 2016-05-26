@@ -41,10 +41,12 @@ Each line of the input file represents an item and is of the following format:
 quantity**\t**name**\t**price**\t**type**\t**is_imported
 
 
-
 where:
 - quantity: the number of purchased istances of the specified item;
 - name: the name of purchased item;
 - price: price (without taxes) of the item;
-- type: type of item (book, medical product, food, other);
+- type: type of item (**book**, **medical product**, **food**, **other**);
 - is_imported: **true** if the item is imported, **false** if the item is not imported.
+
+##Unit tests
+The code contains unit tests with the three input described in the text of problem. Unit tests are executed during the build, and print the receipts for the three input.
