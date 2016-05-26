@@ -11,25 +11,19 @@ Clone the repository.
 To build the program run in the main folder:
 
 ```
-
 	mvn package
-
 ```
 
 After the building, to run the program execute:
 
 ```
-
 	java -cp target/salesTaxesProblem-0.0.1-SNAPSHOT.jar com.michele.salesTaxesProblem.SalesTaxesProblem <path-to-input-file>
-
 ```
 
 An example is:
 
 ```
-
 	java -cp target/salesTaxesProblem-0.0.1-SNAPSHOT.jar com.michele.salesTaxesProblem.SalesTaxesProblem input1.txt
-
 ```
 
 The repository contains in the main folder:
@@ -43,11 +37,10 @@ thar are the files that represent the inputs specified in the problem.
 ##Input format
 Each line of the input file represents an item and is of the following format:
 
-```
 
-	quantity**\t**name**\t**price**\t**type**\t**is_imported
+quantity**\t**name**\t**price**\t**type**\t**is_imported
 
-```
+
 
 where:
 - quantity: the number of purchased istances of the specified item;
